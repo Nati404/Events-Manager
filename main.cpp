@@ -8,5 +8,4 @@ int main(int argc, char* argv[])
     mainwindow w;
     w.show();
     return a.exec();
-    _CrtDumpMemoryLeaks;
 }
