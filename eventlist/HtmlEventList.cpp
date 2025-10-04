@@ -1,8 +1,13 @@
 #include "eventlist/HtmlEventList.h"
 #include "exceptions/Exceptions.h"
 #include <fstream>
+#include <filesystem>
 void HtmlEventList::saveToFile() const{
-	std::ofstream os(this->file_path);
+	std::filesystem::path path = std::filesystem::absolute(this->file_path);
+	while (path.filename() != "Events-Manager") path = path.parent_path();
+	path /= "data";
+	path /= "EventList.html";
+	std::ofstream os(path);
 	if (os.is_open() == false)
 		throw FileException("File cannot be opened!");
 	os << "<!DOCTYPE html> <html> <head> <title> Event WatchList</title> </head > <body> <table border=\"1\">";

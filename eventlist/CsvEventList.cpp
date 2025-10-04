@@ -1,9 +1,14 @@
 #include "eventlist/CsvEventList.h"
 #include <fstream>
+#include <filesystem>
 #include "exceptions/Exceptions.h"
 
 void CsvEventList::saveToFile() const {
-	std::ofstream os(this->file_path);
+	std::filesystem::path path = std::filesystem::absolute(this->file_path);
+	while (path.filename() != "Events-Manager") path = path.parent_path();
+	path /= "data";
+	path /= "EventList.csv";
+	std::ofstream os(path);
 	if (os.is_open() == false)
 		throw FileException("File cannot be opened!");
 	os << "Index, Title, Description, Date, Time, Number of People, Link" << std::endl;
