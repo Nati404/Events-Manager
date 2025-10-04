@@ -1,0 +1,19 @@
+Music Festival,Local bands performance showcase,2024-06-16,18:00,159,www.musicfest.com
+Coding Hackathon,24-hour programming competition,2024-06-17,10:00,58,www.hackathon.dev
+Art Exhibition,Modern art gallery opening,2024-06-18,14:00,45,www.artgallery.org
+Book Reading,Author's new book presentation,2024-06-19,16:30,39,www.booklovers.com
+Basketball Tournament,Regional high school championship,2024-06-20,13:45,101,www.hoops.org
+Cooking Workshop,Italian cuisine masterclass,2024-06-21,11:00,23,www.cookingacademy.edu
+Tech Conference,Latest innovations in AI,2024-06-22,09:00,202,www.techconf.io
+Dance Competition,National dance championship,2024-06-23,19:00,78,www.danceworld.org
+Photography Expo,Wildlife photography showcase,2024-06-24,10:30,38,www.photoclub.net
+Startup Pitch,Entrepreneur investment pitches,2024-06-25,15:00,64,www.startupforum.co
+Poetry Slam,Open mic poetry competition,2024-06-26,17:30,45,www.poetryslam.lit
+Robotics Demo,Student robotics projects,2024-06-27,12:00,55,www.robotleague.edu
+Film Screening,Independent film premiere,2024-06-28,20:00,80,www.indiefilm.cinema
+Gardening Workshop,Urban gardening techniques,2024-06-29,10:00,26,www.gardeners.org
+Math Olympiad,University math competition,2024-06-30,08:45,65,www.matholympiad.edu
+Fashion Show,Spring collection debut,2024-07-01,19:30,121,www.fashionweek.style
+Language Exchange,Cultural language practice,2024-07-02,17:00,31,www.polyglot.club
+Marathon Race,Annual city marathon,2024-07-03,07:00,501,www.citymarathon.run
+VR Expo,Virtual reality showcase,2024-07-04,11:00,92,www.vrexpo.tech
